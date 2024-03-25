@@ -1,0 +1,113 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:cov": {
+      "name": "test:cov",
+      "command": "npm run test:cov",
+      "runAtStart": false
+    },
+    "doc:c": {
+      "name": "doc:c",
+      "command": "npm run doc:c",
+      "runAtStart": false
+    },
+    "doc:cd": {
+      "name": "doc:cd",
+      "command": "npm run doc:cd",
+      "runAtStart": false
+    },
+    "doc:c2": {
+      "name": "doc:c2",
+      "command": "npm run doc:c2",
+      "runAtStart": false
+    },
+    "doc:c2d": {
+      "name": "doc:c2d",
+      "command": "npm run doc:c2d",
+      "runAtStart": false
+    },
+    "example": {
+      "name": "example",
+      "command": "npm run example",
+      "runAtStart": false
+    },
+    "test:full": {
+      "name": "test:full",
+      "command": "npm run test:full",
+      "runAtStart": false
+    },
+    "test:visual": {
+      "name": "test:visual",
+      "command": "npm run test:visual",
+      "runAtStart": false
+    },
+    "test:visual:accept": {
+      "name": "test:visual:accept",
+      "command": "npm run test:visual:accept",
+      "runAtStart": false
+    },
+    "rebuild_specs": {
+      "name": "rebuild_specs",
+      "command": "npm run rebuild_specs",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:tsc": {
+      "name": "build:tsc",
+      "command": "npm run build:tsc",
+      "runAtStart": false
+    },
+    "build:themes": {
+      "name": "build:themes",
+      "command": "npm run build:themes",
+      "runAtStart": false
+    },
+    "build:prod": {
+      "name": "build:prod",
+      "command": "npm run build:prod",
+      "runAtStart": false
+    },
+    "build:prod:tsc": {
+      "name": "build:prod:tsc",
+      "command": "npm run build:prod:tsc",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "npm run prepublishOnly",
+      "runAtStart": false
+    },
+    "postpublish": {
+      "name": "postpublish",
+      "command": "npm run postpublish",
+      "runAtStart": false
+    }
+  }
+}
